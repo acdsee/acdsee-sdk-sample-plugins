@@ -4,7 +4,7 @@ ACDSee SDK Sample Plug-Ins
 
 ## Description
 
-This repository contains sample plug-ins for the ACDSee SDK. These plug-ins are dependant on the API Header files which you can obtain from www.acdsee.io/sdk.
+This repository contains sample plug-ins for the ACDSee SDK. These plug-ins are dependant on the API Header files which you can obtain from www.acdsee.io/sdk. The .sln files work with Visual Studio 2017 or later.
 
 
 ## Contents
