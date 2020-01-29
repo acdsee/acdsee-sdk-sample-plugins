@@ -1,0 +1,1 @@
+This sample shows an example how to Encode/Decode a file with metadata. In this example, the Maker and Model exif fields are saved to/from the file, which is a custom format of metadata at the start of the file, followed by a windows bitmap of the image.

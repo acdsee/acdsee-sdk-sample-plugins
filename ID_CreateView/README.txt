@@ -1,0 +1,1 @@
+This is a sample plug-in that decodes .txt files to an image and creates a custom view to view them for View mode.

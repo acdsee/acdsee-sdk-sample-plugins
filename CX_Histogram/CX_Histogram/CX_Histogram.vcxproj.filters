@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ACDSee API">
+      <UniqueIdentifier>{22d7250b-1a04-4b06-91ad-db321bcca1f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API Wrapper">
+      <UniqueIdentifier>{e04fd551-c47d-42c7-8491-ab28b910ab62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Histogram Implementation">
+      <UniqueIdentifier>{7ed3915d-48a9-4ccc-b6be-26f3f7ee6f4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{6f12d31b-b591-4e7d-b14e-351f3d037eaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="CX_Histogram.cpp">
+      <Filter>API Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="HistogramData.cpp">
+      <Filter>Histogram Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="HistogramImpl.cpp">
+      <Filter>Histogram Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="CX_ApiWrapper.cpp">
+      <Filter>API Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="HistogramDialog.cpp">
+      <Filter>Histogram Implementation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\CX_Histogram.rc2">
+      <Filter>Misc\Resource Files</Filter>
+    </None>
+    <None Include="CX_Histogram.def">
+      <Filter>Misc</Filter>
+    </None>
+    <None Include="CopyOverAPL.bat">
+      <Filter>Misc</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="CX_Histogram.h">
+      <Filter>API Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\API\CX_PlugIn.h">
+      <Filter>ACDSee API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\API\ID_PlugIn.h">
+      <Filter>ACDSee API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\API\IE_PlugIn.h">
+      <Filter>ACDSee API</Filter>
+    </ClInclude>
+    <ClInclude Include="HistogramData.h">
+      <Filter>Histogram Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="HistogramImpl.h">
+      <Filter>Histogram Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="CX_ApiWrapper.h">
+      <Filter>API Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="HistogramDialog.h">
+      <Filter>Histogram Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\API\IF_PlugIn.h">
+      <Filter>ACDSee API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\API\Metadata\Metadata.h">
+      <Filter>ACDSee API</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CX_Histogram.rc">
+      <Filter>Misc\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ACDSee API">
+      <UniqueIdentifier>{931dea36-c35d-4bb8-bb69-a0db449e99bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API Wrapper">
+      <UniqueIdentifier>{ea00a49d-b068-410c-8a5f-6f610f834f69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Filter Implementation">
+      <UniqueIdentifier>{2acb4f66-0660-4072-8a87-b49b9c426880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{9e0df88d-7e3f-4177-b2d8-5cf18e23c580}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\API\CX_PlugIn.h">
+      <Filter>ACDSee API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\API\ID_PlugIn.h">
+      <Filter>ACDSee API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\API\IE_PlugIn.h">
+      <Filter>ACDSee API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\API\IF_PlugIn.h">
+      <Filter>ACDSee API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\API\Metadata.h">
+      <Filter>ACDSee API</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicBitmap.h">
+      <Filter>Filter Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="Blur.h">
+      <Filter>Filter Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="Tint.h">
+      <Filter>Filter Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="Inverse.h">
+      <Filter>Filter Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalBlur.h">
+      <Filter>Filter Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="PointDarken.h">
+      <Filter>Filter Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="IF_API_Util.h">
+      <Filter>API Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="IF_API_Wrapper.h">
+      <Filter>API Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BasicBitmap.cpp">
+      <Filter>Filter Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="Blur.cpp">
+      <Filter>Filter Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="Tint.cpp">
+      <Filter>Filter Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="Inverse.cpp">
+      <Filter>Filter Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalBlur.cpp">
+      <Filter>Filter Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="PointDarken.cpp">
+      <Filter>Filter Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="IF_API_Util.cpp">
+      <Filter>API Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="IF_API_Wrapper.cpp">
+      <Filter>API Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="IF_Sample.cpp">
+      <Filter>API Wrapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IF_Sample.def">
+      <Filter>Misc</Filter>
+    </None>
+    <None Include="CopyPlugin.bat">
+      <Filter>Misc</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IF_Sample.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

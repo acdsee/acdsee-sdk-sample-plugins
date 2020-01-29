@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{0d5a09a4-f28c-4f11-8974-f69870cc0235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Res">
+      <UniqueIdentifier>{1ce53777-9753-4197-98f7-de7e665341c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ACDSee API">
+      <UniqueIdentifier>{cdf275bd-d616-42b4-8565-4fe397022f87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreateViewDialog">
+      <UniqueIdentifier>{5ca44d95-6cfd-4a4e-8a42-bb1d9780e317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API Wrapper">
+      <UniqueIdentifier>{ea2f152e-0849-4806-a12c-53182639dbd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encoder/Decoder Impl">
+      <UniqueIdentifier>{214a41ea-83ba-4415-9914-2993c09af032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API Wrapper\MFC">
+      <UniqueIdentifier>{e61cc305-361b-4904-95ab-ec7ada702211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DIBUtil">
+      <UniqueIdentifier>{02b2eac7-f2bb-4802-8137-04c02fd26637}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="ID_CreateView.cpp">
+      <Filter>API Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="ID_APIWrapper.cpp">
+      <Filter>API Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateViewImpl.cpp">
+      <Filter>Encoder/Decoder Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateViewDialog.cpp">
+      <Filter>CreateViewDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ID_CreateViewMFC.cpp">
+      <Filter>API Wrapper\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="DIBUtil.cpp">
+      <Filter>DIBUtil</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ID_CreateView.def">
+      <Filter>Misc</Filter>
+    </None>
+    <None Include="res\ID_CreateView.rc2">
+      <Filter>Res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\API\ID_PlugIn.h">
+      <Filter>ACDSee API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\API\IE_PlugIn.h">
+      <Filter>ACDSee API</Filter>
+    </ClInclude>
+    <ClInclude Include="ID_APIWrapper.h">
+      <Filter>API Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateViewSharedConstants.h">
+      <Filter>API Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateViewImpl.h">
+      <Filter>Encoder/Decoder Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateViewDialog.h">
+      <Filter>CreateViewDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ID_CreateViewMFC.h">
+      <Filter>API Wrapper\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="DIBUtil.h">
+      <Filter>DIBUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\API\Metadata\Metadata.h">
+      <Filter>ACDSee API</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ID_CreateView.rc">
+      <Filter>Res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,95 @@
+﻿ACDSEE SDK VERSION 2.0 END USER LICENSE AGREEMENT 
+PLEASE READ THIS END USER LICENSE AGREEMENT (THE “AGREEMENT”) CAREFULLY BEFORE USING THIS SOFTWARE.
+
+NOTICE TO USER – THIS AGREEMENT IS BETWEEN YOU AND ACD SYSTEMS INTERNATIONAL INC. (“ACD”). BY INDICATING YOUR ACCEPTANCE AS SET FORTH BELOW, YOU ACCEPT ALL THE TERMS AND CONDITIONS OF THIS AGREEMENT. This Agreement accompanies the ACDSee SDK Version 2.0 and related explanatory materials and includes any upgrades, modified versions, updates, additions, and copies of the SDK licensed to You by ACD. This copy of the SDK is licensed to You as the end user or to Your employer or another third party authorized to permit Your use of the SDK. You agree that this Agreement is enforceable like any written negotiated agreement signed by You and that Your use of the SDK constitutes acceptance of the Agreement terms. If You do not agree to the terms of this Agreement, do not use the SDK.
+1.	Definitions 
+
+“SDK” means the Sample Code, Tools, API information, documentation, including Documentation in an on-line format, and related items. 
+“ACDSee Products” means ACD’s application programs, technologies, and software such as ACD’s plug-ins which are or may be available for licensing to the general public, including any modified versions or upgrades thereof.
+“Sample Code” means sample software code that ACD has included for You to use as reference or to incorporate portions into Your application programs.
+“Tools” refers to programs and utilities that may be included for You to test or compile Your application programs.
+“Documentation” means any related explanatory materials accompanying the SDK.
+“You”, and “Your” refer to any person or entity acquiring or using the SDK under the terms of this Agreement.
+
+2.	Grant of License
+
+(a) Subject to the restrictions contained in this Section 2, ACD grants to You a limited, non-exclusive, non-transferable, worldwide, royalty-free license, without right to sub-license, to use the items in the SDK only for the purpose of development of application programs designed to function with ACDSee Products. ACD does not transfer title to the SDK to You; the license granted to You is not a sale.
+
+(b) Under this Agreement, You may use, modify or merge all or portions of the Sample Code with Your application programs and distribute it only as part of Your products in object code form. Any modified or merged portion of the Sample Code is subject to this Agreement. You are required to include the following copyright notice in Your application programs:
+
+This software contains portions of the ACDSee SDK copyright (c) 2020, ACD Systems International Inc. All rights reserved.
+
+Redistribution and use in binary forms, with or without modification, are permitted provided that the following conditions are met:
+1.	Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+2.	The name of ACD Systems International Inc. may not be used to endorse or promote products derived from the SDK without specific prior written permission.
+
+THE SDK IS PROVIDED BY THE COPYRIGHT HOLDER "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL ACD SYSTEMS INTERNATIONAL INC. BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THE SDK, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+(c) You may not assign Your rights or obligations granted under this Agreement without the prior written consent of ACD. Any attempted assignment or transfer without such prior written consent from ACD shall be void and of no effect.
+(d) You may not sell, sublicense, rent, loan or lease any portion of the SDK to any third party. You may not reverse engineer, decompile or disassemble any binary components of the SDK. To the extent that local law grants You the right to decompile software in order to obtain information necessary to render the software interoperable with other software, You shall first request to ACD in writing to provide You with the necessary information. ACD has the right to impose reasonable conditions such as a reasonable fee for doing so. Requests for information should be directed to ACD at the address provided below. You may make a limited number of copies of the SDK to be used by Your employees or consultants as provided herein, and not for general business purposes, and such employees or consultants shall be subject to the obligations and restrictions in this Agreement.
+(e) You acknowledge that ACD is currently developing or may develop technologies and products in the future that have or may have design and/or functionality similar to products that You may develop based on Your license herein. Nothing in this Agreement shall impair, limit or curtail ACD’s right to continue with its development, maintenance and/or distribution of ACD’s technology or products. You acknowledge that ACD may implement a design or code change in its ACDSee Products that could impair the functionality of products developed by You using the SDK. You agree that You shall not assert in any way any patent owned by You arising out of or in connection with the SDK or modifications made thereto against ACD, its subsidiaries or affiliates, or their customers, direct or indirect, agents, distributors and contractors (collectively, the "ACDSee Products Users") for the manufacture, use, import, licensing, distribution, offer for sale or sale of any ACDSee Products.
+(f) Notwithstanding anything to the contrary, You are not licensed to (and You agree that You will not) integrate or use the SDK with any Open Source Software or otherwise take any action that could require disclosure, distribution, or licensing of all or any part of the SDK in source code form, for the purpose of making derivative works, or at no charge. For the purposes of this Section 2(f), "Open Source Software" shall mean software licensed under the GNU General Public License, the GNU Lesser General Public License, or any other license terms that could require, or condition Your use, modification, or distribution of such software on, the disclosure, distribution, or licensing of any other software in source code form, for the purpose of making derivative works, or at no charge. Any violation of the foregoing provision shall immediately terminate all of Your licenses and other rights to the SDK granted under this Agreement.
+
+3.	Proprietary Rights
+
+The items contained in the SDK are the intellectual property of ACD and its suppliers. You agree to protect all copyright and other ownership interests of ACD and/or its suppliers in all items in the SDK supplied under this Agreement. You agree that all copies of the items in the SDK, reproduced for any reason by You, contain the same copyright notices, and other proprietary notices as appropriate, as appear on or in the master items delivered by ACD in the SDK. ACD and/or its suppliers retain title and ownership of the items in the SDK and all subsequent copies, regardless of the form or media in or on which the original and other copies may exist. Except as stated above, this Agreement does not grant You any rights to patents, copyrights, trade secrets, trademarks or any other rights in respect to the items in the SDK. The SDK is protected without limitation by Canadian and United States copyright law and international copyright treaty provisions and applicable laws of the country in which it is being used. All rights not expressly granted hereunder are reserved for ACD.
+
+4.	Limited Warranty and Disclaimer 
+
+You hereby acknowledge that You are solely responsible for Your use of the SDK and that the SDK may not satisfy all Your requirements or be free from defects. ACD specifically does not warrant that the SDK is error free. THE SDK IS LICENSED TO YOU ONLY ON AN ‘AS IS’ BASIS WITHOUT ANY REPRESENTATION, WARRANTY OR CONDITION BY ACD OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY WARRANTY OR CONDITION OF MERCHANTABILITY, MERCHANTABLE QUALITY, DURABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR TITLE OR NON-INFRINGEMENT AND THOSE ARISING BY STATUTE OR OTHERWISE IN LAW OR FROM A COURSE OF DEALING OR USAGE OF TRADE. NO ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY ACD OR THEIR RESPECTIVE EMPLOYEES, AGENTS, SUPPLIERS OR DISTRIBUTORS WILL CREATE A WARRANTY. ACD DOES NOT WARRANT, GUARANTEE OR MAKE REPRESENTATIONS REGARDING THE USE, OR THE RESULTS OF USE OF THE SDK IN TERMS OF CORRECTNESS, ACCURACY, RELIABILITY, CURRENTNESS OR OTHERWISE. IF SUCH DISCLAIMER OF REPRESENTATIONS, WARRANTIES AND CONDITIONS IS NOT PERMITTED BY LAW, THE DURATION OF ANY SUCH IMPLIED WARRANTIES OR CONDITIONS IS LIMITED TO NINETY (90) DAYS FROM THE DATE OF DELIVERY. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES OR CONDITIONS OR LIMITATIONS ON HOW LONG AN IMPLIED WARRANTY OR CONDITION MAY LAST, SO SUCH LIMITATIONS OR EXCLUSIONS MAY NOT APPLY TO YOU.
+
+5.	Limitation of Responsibility 
+
+You will indemnify, hold harmless, and defend ACD, its employees, suppliers, agents and distributors against any and all claims, proceedings, demands and costs resulting from or in any way connected with Your use of the SDK. IN NO EVENT WILL ACD BE LIABLE ON ANY THEORY OF LIABILITY, WHETHER BASED ON CONTRACT, STRICT LIABILITY, INDEMNITY, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE, FOR DAMAGES. IN NO EVENT WILL ACD ITS EMPLOYEES, AGENTS, SUPPLIERS OR DISTRIBUTORS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, EXEMPLARY, PUNITIVE, AGGRAVATED OR CONSEQUENTIAL DAMAGES IN CONNECTION WITH OR ARISING OUT OF OR RELATED TO THIS AGREEMENT, THE SDK OR THE USE OR INABILITY TO USE THE SDK OR THE FURNISHING, PERFORMANCE OR USE OF ANY OTHER MATTERS HEREUNDER HOWEVER CAUSED, INCLUDING BUT NOT LIMITED TO BUSINESS INTERRUPTION, LOSS OF DATA OR INFORMATION, LOSS OF PROFITS, BUSINESS OPPORTUNITIES, OR GOOD WILL EVEN IF NOTIFIED OF THE POSSIBILITY OF SUCH DAMAGES, AND NOTWITHSTANDING THE FAILURE OF ESSENTIAL PURPOSE OF ANY REMEDY.
+
+6.	Export Compliance
+
+You agree not to export or re-export any product that includes Sample Code except in compliance with international trade laws, the export laws of any country where the SDK is used and the United States Department of Commerce Bureau of Industry and Security Export Administration Regulations (EAR), including but not limited to compliance with EAR restrictions on export or re-export of the SDK:
+i)	to an embargoed country; 
+ii)	to individuals and organizations prohibited from receiving US exports; and
+iii)	in support of a prohibited end use
+
+The license granted to You under this Agreement is on the condition that You comply with applicable trade and export laws and You acknowledge that this license will be revoked if You do not comply with this section.
+
+7.	Governing Law
+
+This Agreement shall be governed exclusively by the laws of the Province of British Columbia and the laws of Canada applicable therein excluding application of any conflict of laws principles and excluding the United Nations Convention on Contracts for the International Sale of Goods and excluding the International Sale of Goods Act (B.C.). You hereby irrevocably attorn and submit to the non-exclusive jurisdiction of the courts of Victoria, British Columbia, and any competent courts of appeal therefrom. 
+
+8.	Termination
+
+Any failure by You to comply with the terms and conditions of this Agreement will result in automatic and immediate termination of this Agreement including the license hereunder. Upon termination of this Agreement for any reason, You agree to immediately cease use of the SDK and destroy all copies of the SDK. Restrictions on use, transfer and export, the provisions governing ownership and proprietary rights, limitations of liability and warranty disclaimers, governing law, and such other provisions as by their terms so provide or that may reasonably be expected to remain in force, shall survive the expiration or termination of this Agreement.
+
+9. 	General Provisions 
+
+No failure or delay in enforcing any right or exercising will be deemed a waiver of any right or remedy.
+
+If any provision of this Agreement is unenforceable or invalid for any reason whatever, such unenforceability or invalidity shall not affect the enforceability or validity of the remaining provisions of this Agreement and such provision shall be severable from the remainder of this Agreement.
+
+This Agreement constitutes the entire agreement between You and ACD with respect to the subject matter hereof and supersedes all prior and contemporaneous proposals, agreements, understandings, representations and communications, whether oral or written. 
+
+When conflicting language exists between this Agreement and any other agreement included in the SDK, this Agreement shall supersede. If either ACD or You employs attorneys to enforce any rights arising out of or relating to this Agreement, the prevailing party shall be entitled to recover reasonable attorneys' fees. 
+
+No variation of the terms of this Agreement will be enforceable against ACD unless ACD gives its express consent, in writing signed by an officer of ACD. 
+
+This Agreement shall be binding upon and inure to the benefit of the parties hereto and their respective successors and permitted assigns. 
+
+The English version of this Agreement shall be used for interpreting and construing the meanings of any provisions herein. 
+
+You acknowledge that You have read this Agreement, understand it and that it is the complete and exclusive statement of Your agreement with ACD. 
+
+10. 	Trademarks
+
+ACD, ACDSee, and the ACDSee logo are trademarks of ACD Systems International Inc. and are registered in Canada, the United States, European Union, Japan and certain other jurisdictions. All rights reserved.
+
+11. 	Contact Information 
+
+ACD Systems International Inc.
+129-1335 Bear Mountain Pkwy
+Victoria, BC, V9B 6T9 Canada
+Tel: 778-817-1168
+Fax: 778-402-8305
+
+web: https://www.acdsee.com
+email: sdk@acdsee.com
+
+ACDSee SDK v.2.0 EULA January 23, 2020.

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="API Wrapper">
+      <UniqueIdentifier>{2f389555-b579-4a6c-b108-a18c4ebd09bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation">
+      <UniqueIdentifier>{22cb02c9-9a5e-423e-913a-c1c219c67154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{5d5cc834-f737-4929-9d67-95eb6bcab41a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ACDSee API">
+      <UniqueIdentifier>{a07c89e2-0b16-43b5-9397-b3ff7a6e7e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ACDSee Util">
+      <UniqueIdentifier>{76181052-d851-4575-aef1-7ed6ad6561c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Metadata API">
+      <UniqueIdentifier>{22e24840-8656-443b-90bf-db30c628bd26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\API\CX_PlugIn.h">
+      <Filter>ACDSee API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\API\ID_PlugIn.h">
+      <Filter>ACDSee API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\API\IE_PlugIn.h">
+      <Filter>ACDSee API</Filter>
+    </ClInclude>
+    <ClInclude Include="IE_APIWrapper.h">
+      <Filter>API Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="ID_APIWrapper.h">
+      <Filter>API Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="MetadataBitmap.h">
+      <Filter>Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="MetadataBitmapSharedConstants.h">
+      <Filter>API Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="MetadataHandler.h">
+      <Filter>Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\API\Metadata\MetadataUtil.h">
+      <Filter>ACDSee Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\API\Metadata\Metadata.h">
+      <Filter>Metadata API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\API\Metadata\Media.h">
+      <Filter>Metadata API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\API\Metadata\IPTC.h">
+      <Filter>Metadata API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\API\Metadata\Exif.h">
+      <Filter>Metadata API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\API\Metadata\Embedded.h">
+      <Filter>Metadata API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\API\Metadata\ACD.h">
+      <Filter>Metadata API</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="ID_MetadataBitmap.cpp">
+      <Filter>API Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="IE_MetadataBitmap.cpp">
+      <Filter>API Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="IE_APIWrapper.cpp">
+      <Filter>API Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="ID_APIWrapper.cpp">
+      <Filter>API Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="MetadataBitmap.cpp">
+      <Filter>Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="MetadataHandler.cpp">
+      <Filter>Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\API\Metadata\MetadataUtil.cpp">
+      <Filter>ACDSee Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IDE_MetadataBitmap.def">
+      <Filter>Misc</Filter>
+    </None>
+    <None Include="CopyAPL.bat">
+      <Filter>Misc</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+; IF_Sample.def : Declares the module parameters for the DLL.
+
+LIBRARY "IF_Sample.apl"
+
+EXPORTS
+	IF_Init
+	IF_Free
+	IF_GetPlugInInfo 
+	IF_RunFilter
+   IF_RunMenuFilter
+   IF_RunMenuFilterAction

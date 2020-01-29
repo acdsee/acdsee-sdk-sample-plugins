@@ -1,0 +1,1 @@
+This is a sample command extension plug-in that can take a file and pop-up a window of a histogram of that file in Manage mode.

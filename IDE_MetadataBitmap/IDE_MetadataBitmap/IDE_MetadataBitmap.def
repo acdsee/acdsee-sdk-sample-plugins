@@ -1,0 +1,21 @@
+LIBRARY "IDE_MetadataBitmap.apl"
+
+EXPORTS
+	ID_Init
+   ID_Free
+   ID_GetPlugInInfo
+   ID_ShowPlugInDialog
+   ID_OpenImage
+   ID_CloseImage
+	ID_GetImageInfo
+	ID_GetPageInfo
+   ID_PageDecode
+   ID_GetMetadataList
+   ID_GetSupportedMetadata
+
+   IE_Init
+   IE_Free
+   IE_GetPlugInInfo
+   IE_ShowPlugInDialog
+   IE_GetValidPixelFormats
+   IE_ImageEncode
