@@ -1,7 +1,7 @@
-﻿ACDSEE SDK VERSION 2.0 END USER LICENSE AGREEMENT 
+﻿ACDSEE SDK VERSION 2.0.1 END USER LICENSE AGREEMENT 
 PLEASE READ THIS END USER LICENSE AGREEMENT (THE “AGREEMENT”) CAREFULLY BEFORE USING THIS SOFTWARE.
 
-NOTICE TO USER – THIS AGREEMENT IS BETWEEN YOU AND ACD SYSTEMS INTERNATIONAL INC. (“ACD”). BY INDICATING YOUR ACCEPTANCE AS SET FORTH BELOW, YOU ACCEPT ALL THE TERMS AND CONDITIONS OF THIS AGREEMENT. This Agreement accompanies the ACDSee SDK Version 2.0 and related explanatory materials and includes any upgrades, modified versions, updates, additions, and copies of the SDK licensed to You by ACD. This copy of the SDK is licensed to You as the end user or to Your employer or another third party authorized to permit Your use of the SDK. You agree that this Agreement is enforceable like any written negotiated agreement signed by You and that Your use of the SDK constitutes acceptance of the Agreement terms. If You do not agree to the terms of this Agreement, do not use the SDK.
+NOTICE TO USER – THIS AGREEMENT IS BETWEEN YOU AND ACD SYSTEMS INTERNATIONAL INC. (“ACD”). BY INDICATING YOUR ACCEPTANCE AS SET FORTH BELOW, YOU ACCEPT ALL THE TERMS AND CONDITIONS OF THIS AGREEMENT. This Agreement accompanies the ACDSee SDK Version 2.0.1 and related explanatory materials and includes any upgrades, modified versions, updates, additions, and copies of the SDK licensed to You by ACD. This copy of the SDK is licensed to You as the end user or to Your employer or another third party authorized to permit Your use of the SDK. You agree that this Agreement is enforceable like any written negotiated agreement signed by You and that Your use of the SDK constitutes acceptance of the Agreement terms. If You do not agree to the terms of this Agreement, do not use the SDK.
 1.	Definitions 
 
 “SDK” means the Sample Code, Tools, API information, documentation, including Documentation in an on-line format, and related items. 
@@ -92,4 +92,4 @@ Fax: 778-402-8305
 web: https://www.acdsee.com
 email: sdk@acdsee.com
 
-ACDSee SDK v.2.0 EULA January 23, 2020.
+ACDSee SDK v.2.0.1 EULA February 14, 2020.
