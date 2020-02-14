@@ -54,7 +54,9 @@ void MetadataBitmap::CloseDecodeImage()
 
 void MetadataBitmap::GetDecodeImageDimensions(SIZE& si)
 {
-   DecodeImage(nullptr);
+   MD_MetadataList* pList = (MD_MetadataList*)new CMetadataList();
+   DecodeImage(pList);
+   pList->Release();
    si.cx = decodeFileDimensions.cx;
    si.cy = decodeFileDimensions.cy;
 }
@@ -88,7 +90,9 @@ HGLOBAL MetadataBitmap::GetDecodeMetadataGUIDArray()
 
 HGLOBAL MetadataBitmap::GetPackedDIB()
 {
-   DecodeImage(nullptr);
+   MD_MetadataList* pList = (MD_MetadataList*)new CMetadataList();
+   DecodeImage(pList);
+   pList->Release();
    mustFreeDIB = false;
    return packedDIB;
 }
